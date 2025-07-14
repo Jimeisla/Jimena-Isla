@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collecclub</title>
+
+    <!-- Tipografía desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+
+        <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+</head>
+<body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <a class="navbar-brand" href="#">COLLECLUB</a>
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Suscripciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">GeekSwap</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+<!-- HERO: Sección de portada con llamado a la acción -->
+<section class="hero-section section-spacing container-fluid px-lg-5 d-flex align-items-center justify-content-between">
+  <div class="row align-items-center">
+    <!-- Texto principal -->
+    <div class="col-lg-6">
+      <h1 class="h1-custom">Cultura pop 
+<br>directo a tu puerta</h1>
+      <p class="p-custom">Cajas con ítems oficiales y exclusivos, 
+        <br>beneficios únicos y acceso a nuestra
+        <br>comunidad Geek.</p>
+      <div class="d-flex gap-3 mt-4">
+        <a href="#" class="btn btn-dark">Suscribirse</a>
+       <!-- <a href="#" class="btn btn-outline-dark">Acción Secundaria</a>-->
+      </div>
+    </div>
+    <!-- Imagen destacada -->
+    <div class="col-lg-6 text-center">
+      <img src="imagenes/Frame 78.png" class="img-fluid img-rounded" alt="Imagen Hero">
+    </div>
+  </div>
+</section>
+<!-- /HERO -->
+
+<!-- SECCIÓN B: Imagen izquierda, texto derecha -->
+<section class="section-spacing container">
+  <div class="row align-items-center">
+    <!-- Columna de imagen -->
+    <div class="col-lg-6 text-center mb-4 mb-lg-0">
+      <img src="imagenes/Nosotros.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+    </div>
+    <!-- Columna de texto -->
+    <div class="col-lg-6">
+      <h2 class="h2-custom">Creado por y
+<br>para la comunidad</h2>
+      <p class="lead-custom text-white">Nacimos del mismo lugar que vos: del hype, la nostalgia y la emoción de coleccionar. Somos fans, y por eso armamos esta caja como nos gustaría recibirla: con ítems exclusivos, calidad real y sorpresas que valen. Esto no es solo merch, es pertenencia.
+</p>
+      <a href="#" class="btn btn-dark">Conocer más</a>
+    </div>
+  </div>
+</section>
+
+<!-- COMO SUSCRIBIRSE: Sección con 3 opciones destacadas -->
+<section class="section-spacing container text-center">
+  <h2 class="h3-custom mb-5">Desbloqueá tu caja</h2>
+  <div class="row justify-content-center">
+    
+    <!-- Columna 1 -->
+    <div class="col-md-4 mb-4">
+      <img src="imagenes/icono elegi.png" alt="Curaduría hecha por fans" width="150" height="150" class="mb-3">
+      <h4 style="color:#EC135D;">Elegí tu suscripción</h4>
+      <p class="text-white">
+        Seleccioná el tipo de suscripción que más te guste y completá tus datos para activar tu membresía.
+
+      </p>
+    </div>
+
+    <!-- Columna 2 -->
+    <div class="col-md-4 mb-4">
+      <img src="imagenes/icono mail.png" alt="Ítems únicos, no genéricos" width="150" height="150" class="mb-3">
+      <h4 style="color:#EC135D;">Recibí la confirmación</h4>
+      <p class="text-white">
+      Apenas confirmás tu compra, te llega un mail con todos los detalles. Ahora sí: ¡contá los días para tu caja!      </p>
+    </div>
+
+    <!-- Columna 3 -->
+    <div class="col-md-4 mb-4">
+      <img src="imagenes/icono caja.png" alt="Comunidad y experiencia continua" width="150" height="150" class="mb-3">
+      <h4 style="color:#EC135D;">Disfrutá de tu caja</h4>
+      <p class="text-white">
+       Tu caja llega directo a tu casa, lista para que la abras como fan: con calidad real y sorpresas que valen la pena.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
+<section class="section-spacing container-fluid bg-geekswap px-5 text-center">  
+  <h3 class="h3-custom">Explorá nuestras cajas</h2>
+  <p class="p-custom2">¡Hay una caja para cada fan!</p>
+  
+  <div class="row mt-5">
+    
+    <!-- Card: Plan Básico -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100">
+
+        <h2 class="text-uppercase">FAN BASE</h2>
+         <h5 >Plan Básico</h5>
+
+         <!-- Imagen ilustrativa -->
+        <img src="imagenes/caja fb1.png" class="img-fluid img-rounded my-3" alt="Plan Básico">
+    
+        <!-- Descripción -->
+        <p class="p-custom">Perfecto para empezar.<br><strong>Incluye:</strong></p>
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
+          <li><i class="bi bi-check-circle-fill"></i> Cómic del mes</li>
+          <li><i class="bi bi-check-circle-fill"></i> Mini póster exclusivo</li>
+          <li><i class="bi bi-check-circle-fill"></i> Sticker pack</li>
+          <li><i class="bi bi-check-circle-fill"></i> Acceso a GeekSwap básico para intercambiar y conectar</li>
+        </ul>
+
+         <!-- Título y precio -->
+           <h2 class="card-text2">$49.000 <small>/ mes</small></h2>
+
+        <!-- Botón CTA -->
+        <a href="detalle.html" class="btn btn-dark">¡La quiero!</a>
+      </div>
+    </div>
+
+    <!-- Card: Plan Pro (Recomendado) -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100 border border-primary">
+        <!-- Título y precio -->
+        <h2 class="text-uppercase">Legendary loot</h2>
+         <h5 >Plan Premium<span class="badge bg-primary ms-2">Recomendado</span></h5>
+        
+        <!-- Imagen ilustrativa -->
+        <img src="imagenes/Caja ll2.png" class="img-fluid img-rounded my-3" alt="Plan Pro">
+
+        <!-- Descripción -->
+        <p class="p-custom">La experiencia completa<br><strong>Incluye:</strong></p>
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start mx-auto" style="max-width: 270px;">
+          <li><i class="bi bi-check-circle-fill"></i> Todo lo del plan True Collector</li>
+          </li><i class="bi bi-check-circle-fill"></i> Cómic exclusivo </li>
+          <li><i class="bi bi-check-circle-fill"></i> Figura coleccionable</li>
+          <li><i class="bi bi-check-circle-fill"></i>Merch Wearable</li>
+          <li><i class="bi bi-check-circle-fill"></i> 15% de descuento en tiendas afiliadas</li>
+          <li><i class="bi bi-check-circle-fill"></i> Soporte y GeekSwap Premium</li>
+        </ul>
+
+        <!-- Título y precio -->
+           <h2 class="card-text2">$79.000 <small>/ mes</small></h2>
+
+        <!-- Botón CTA -->
+        <a href="detalle.html" class="btn btn-dark">¡La quiero!</a>
+      </div>
+    </div>
+
+    <!-- Card: Plan Full -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100">
+        <!-- Título y precio -->
+        <h2 class="text-uppercase">true collector</h2>
+         <h5 >Plan Pro</h5>
+
+        
+        <!-- Imagen ilustrativa -->
+        <img src="imagenes/caja tc.png" class="img-fluid img-rounded my-3" alt="Plan Full">
+
+        <!-- Descripción -->
+        <p class="p-custom"><strong></strong>Ideal para quienes buscan más<br><strong>Incluye:</strong></p>
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
+          <li> <i class="bi bi-check-circle-fill"> </i> Todo lo del plan Fan Base</li>
+          <li> <i class="bi bi-check-circle-fill"></i> Sticker pack x2</li>
+          <li> <i class="bi bi-check-circle-fill"> </i>Figura exclusiva del mes</li>
+          <li> <i class="bi bi-check-circle-fill"></i> 10% de descuento en tiendas afiliadas</li>
+        </ul>
+
+        <!-- Título y precio -->
+           <h2 class="card-text2">$59.000 <small>/ mes</small></h2>
+
+        <!-- Botón CTA -->
+        <a href="detalle.html" class="btn btn-dark">¡La quiero!</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- /PLANES DE SUSCRIPCIÓN -->
+
+<!-- PORQUE ELEGIRNNOS: Sección con 3 opciones destacadas -->
+<section class="section-spacing container text-center">
+  <h2 class="h3-custom mb-5">¿Por qué elegirnos?</h2>
+  <div class="row justify-content-center">
+    
+    <!-- Columna 1 -->
+    <div class="col-md-4 mb-4">
+      <img src="imagenes/icono estrella.png" alt="Curaduría hecha por fans" width="200" height="200" class="mb-3">
+      <h4 style="color:#EC135D;">Curaduría hecha por fans</h4>
+      <p class="text-white">
+No es solo una caja: es una comunidad para expandir tu colección y vivir nuevas historias cada mes. </p>
+    </div>
+
+    <!-- Columna 2 -->
+    <div class="col-md-4 mb-4">
+      <img src="imagenes/icono diamante.png" alt="Ítems únicos, no genéricos" width="200" height="200" class="mb-3">
+      <h4 style="color:#EC135D;">Ítems únicos, no genéricos</h4>
+      <p class="text-white">
+        Trabajamos con ediciones limitadas, arte original y productos únicos pensados para sorprender. No vas a encontrar esto en cualquier lado.      </p>
+    </div>
+
+    <!-- Columna 3 -->
+    <div class="col-md-4 mb-4">
+      <img src="imagenes/icono comunidad.png" alt="Comunidad y experiencia continua" width="200" height="200" class="mb-3">
+      <h4 style="color:#EC135D;">Comunidad y experiencia continua</h4>
+      <p class="text-white">
+        No es solo una caja: es una comunidad para compartir, intercambiar y seguir sumando historias.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECCIÓN C: Texto izquierda, imagen derecha -->
+<section class="section-spacing container-fluid bg-geekswap px-5">
+  <div class="row align-items-center">
+    <!-- Columna de texto -->
+    <div class="col-lg-6">
+      <h3 class="h4-custom">¿Te tocó algo repetido?
+      <h3 class="h3-custom">Activá GeekSwap y 
+<br>cambiá tu destino</h2>
+      <p class="lead-custom2">Con GeekSwap podés intercambiar tus ítems repetidos con otros fans de la comunidad. Subís lo que tenés, elegís lo que querés, ¡y hacés el cambio!
+</p>
+      <a href="#" class="btn btn-light text-white">Ir a GeekSwap</a>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-lg-6 text-center mt-4 mt-lg-0">
+      <img src="imagenes/GeekSwap.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+    </div>
+  </div>
+</section>
+
+
+
+<!-- /TESTIMONIOS3 -->
+<section class="testimonial text-center">
+   <h2 class="h2-custom">Lo dicen los verdaderos fans</h2>
+   <p class="p-custom2">Spoiler: están felices</p>
+
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      
+      <!-- Testimonio 1 -->
+     <div class="carousel-item active">
+  <div class="testimonio-box">
+    <img src="imagenes/testimonio 1.jpg" class="rounded-circle mb-3" width="100" height="100" alt="Miembro 1">
+    <div class="estrellas">★★★★★</div>
+    <p class="comentario">“La remera me la quieren sacar todos mis amigos. La calidad es tremenda. Todo lo que vino es una joya.”</p>
+    <p class="nombre">Amelie Bayona</p>
+    <p class="suscripcion">Legendary Loot</p>
+  </div>
+</div>
+
+      <!-- Testimonio 2 -->
+      <div class="carousel-item">
+    <div class="testimonio-box">
+        <img src="imagenes/testimonio 2.jpg" class="rounded-circle mb-3" width="100" height="100" alt="Miembro 2">
+        <div class="estrellas">★★★★★</div>
+        <p class="comentario">“La caja me llegó y fue como un mini cumpleaños. El Funko exclusivo es una locura, y el póster ya lo enmarqué”</p>
+        <p class="nombre">Mariano Vera</p>
+        <p class="suscripcion">True Collector</p>
+      </div>
+
+      
+</div>
+
+      <!-- Testimonio 3 -->
+      <div class="carousel-item">
+        <div class="testimonio-box">
+        <img src="imagenes/testimonio 3.jpg" class="rounded-circle mb-3" width="100" height="100" alt="Miembro 3">
+        <div class="estrellas">★★★★★</div>
+        <p class="comentario">“No esperaba tanta calidad. Se nota que está pensada por gente que ama esto. Es mi momento favorito del mes.”</p>
+        <p class="nombre">Valentín Perez</p>
+        <p class="suscripcion">True Collector</p>
+      </div>
+
+      <!-- Puedes seguir agregando más testimonios acá -->
+
+    </div>
+
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</section>
+<!-- /TESTIMONIOS3 -->
+
+
+
+
+
+
+<!-- Carrusel de Marcas -->
+<section class="brand-carousel">
+  <div class="brand-track">
+    <img src="imagenes/marvel.png" alt="Marvel">
+    <img src="imagenes/Games of Thrones.png" alt="Game of Thrones">
+    <img src="imagenes/DC.png" alt="DC">
+    <img src="imagenes/Harry Potter.png" alt="Harry Potter">
+    <img src="imagenes/Star Wars.png" alt="Star Wars">
+
+    <!-- Duplicamos para efecto infinito -->
+    <img src="imagenes/marvel.png" alt="Marvel">
+    <img src="imagenes/Games of Thrones.png" alt="Game of Thrones">
+    <img src="imagenes/DC.png" alt="DC">
+    <img src="imagenes/Harry Potter.png" alt="Harry Potter">
+    <img src="imagenes/Star Wars.png" alt="Star Wars">
+  </div>
+</section>
+
+
+
+<!-- /PREGUNTAS FRECUENTES -->
+<section class="section-spacing container text-center">
+  <h2 class="h3-custom">Preguntas Frecuentes</h2>
+
+  <div class="row text-start mt-4">
+    <!-- Columna izquierda -->
+    <div class="col-md-6">
+      <div class="faq-item border-bottom py-3">
+        <button class="faq-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+          <span class="arrow">1 |  ¿Puedo elegir qué ítems me tocan? </span>
+        </button>
+        <div id="faq1" class="collapse">
+          <div class="faq-body">No, el contenido de cada caja es sorpresa, curado por nuestro equipo según una temática mensual. ¡Parte de la experiencia es la emoción de descubrir nuevos ítems exclusivos de tus franquicias favoritas!</div>
+        </div>
+      </div>
+
+      <div class="faq-item border-bottom py-3">
+        <button class="faq-button" data-bs-toggle="collapse" data-bs-target="#faq2">
+          <span class="arrow">2 |  ¿Cuándo se realiza el envío? </span>
+        </button>
+        <div id="faq2" class="collapse">
+          <div class="faq-body">Enviamos todas las cajas entre el día 10 y 15 de cada mes. Te notificaremos por correo electrónico en cuanto tu caja esté en camino, con número de seguimiento incluido.</div>
+        </div>
+      </div>
+
+      <div class="faq-item border-bottom py-3">
+        <button class="faq-button" data-bs-toggle="collapse" data-bs-target="#faq3">
+          <span class="arrow">3 |  ¿Cómo me suscribo?</span>
+        </button>
+        <div id="faq3" class="collapse">
+          <div class="faq-body">Suscribirte es muy fácil: solo elige tu plan en nuestra página, completa tus datos de envío y pago, ¡y listo! Te unirás a una comunidad de fans que reciben cada mes lo mejor de la cultura pop.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="col-md-6">
+      <div class="faq-item border-bottom py-3">
+        <button class="faq-button" data-bs-toggle="collapse" data-bs-target="#faq4">
+          <span class="arrow">4 |  ¿Qué medios de pago aceptan?</span>
+        </button>
+        <div id="faq4" class="collapse">
+          <div class="faq-body">Aceptamos tarjetas de crédito, débito y pagos a través de plataformas como PayPal y Mercado Pago, para que elijas la opción que más te convenga.</div>
+        </div>
+      </div>
+
+      <div class="faq-item border-bottom py-3">
+        <button class="faq-button" data-bs-toggle="collapse" data-bs-target="#faq5">
+          <span class="arrow">5 |   ¿Puedo cancelar mi suscripción?</span>
+        </button>
+        <div id="faq5" class="collapse">
+          <div class="faq-body">Sí, puedes cancelar en cualquier momento desde tu cuenta, sin penalizaciones ni complicaciones. Solo asegúrate de hacerlo antes del día 1 del mes para que no se genere el siguiente cobro.</div>
+        </div>
+      </div>
+
+      <div class="faq-item border-bottom py-3">
+        <button class="faq-button" data-bs-toggle="collapse" data-bs-target="#faq6">
+          <span class="arrow">6 |   ¿Qué pasa si no me gusta la caja?</span>
+        </button>
+        <div id="faq6" class="collapse">
+          <div class="faq-body">Sabemos que los gustos son variados, pero cada caja está diseñada para sorprender con productos de calidad y alto valor. No realizamos devoluciones por desagrado, ¡aunque siempre puedes compartir o intercambiar con otros fans de la comunidad!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- preguntas frecuentes 2 -->
+
+
+<!-- CONTACTO -->
+ <div class="container py-5 text-white">
+  <!-- Título y subtítulo centrados -->
+  <div class="text-center mb-5">
+    <h2 class="h3-custom">¿Te quedó alguna duda?</h2>
+    <p class="p-custom2">Contactanos</p>
+  </div>
+
+  <!-- Sección con dos columnas alineadas -->
+  <div class="row gx-0">
+    
+    <!-- Columna Izquierda: Información de contacto -->
+    <div class="col-md-6">
+      <div class="d-flex align-items-center mb-4">
+        <img src="imagenes/ubicacion.png" alt="Ubicación" class="me-3" width="40">
+        <p class="mb-0">Calle Fandom 1983, Piso 3<br>Barrio Geek, CABA, Argentina</p>
+      </div>
+
+      <div class="d-flex align-items-center mb-4">
+        <img src="imagenes/horario.png" alt="Horario" class="me-3" width="40">
+        <p class="mb-0">Lunes a viernes de 10 a 18 h</p>
+      </div>
+
+      <div class="d-flex align-items-center mb-4">
+        <img src="imagenes/telefono.png" alt="Teléfono" class="me-3" width="40">
+        <p class="mb-0">+54 11 5555-1984</p>
+      </div>
+
+      <div class="d-flex align-items-center">
+        <img src="imagenes/Mail.png" alt="Email" class="me-3" width="40">
+        <p class="mb-0">hola@cajascolecclub.com</p>
+      </div>
+    </div>
+
+    <!-- Columna Derecha: Formulario -->
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Tu email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- CONTACTO -->
+
+
+
+<!-- FOOTER -->
+<footer class="text-white py-5">
+  <div class="container">
+    <div class="row justify-content-between">
+      
+      <!-- Logo + Lema -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h3 class="fw-bold">COLLECLUB</h3>
+        <p class="fst-italic">Un club para los que<br>coleccionan en serio</p>
+      </div>
+      
+      <!-- Navegación -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h6 class="fw-bold">Navegación</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Nosotros</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Suscripciones</a></li>
+          <li><a href="#" class="text-white text-decoration-none">GeekSwap</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Preguntas Frecuentes</a></li>
+        </ul>
+      </div>
+
+      <!-- Oficinas -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h6 class="fw-bold">Oficinas</h6>
+        <ul class="list-unstyled">
+          <li>Buenos Aires</li>
+          <li>Santiago de Chile</li>
+          <li>Montevideo</li>
+          <li>Asunción</li>
+        </ul>
+      </div>
+
+      <!-- Redes sociales -->
+<div class="col-md-3">
+  <h6 class="fw-bold">Seguinos en redes</h6>
+  <div class="d-flex gap-3 mt-2 social-icons">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="text-white fs-4">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="text-white fs-4">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="text-white fs-4">
+      <i class="fab fa-tiktok"></i>
+    </a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+<!-- FOOTER -->
+
+
+<!-- Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<!-- Script personalizado para cambiar el navbar al hacer scroll -->
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+<!-- Scripts adicionales -->
+<script src="scripts.js"></script>
+</body>
+</html>

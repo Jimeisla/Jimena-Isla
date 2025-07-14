@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collecclub</title>
+
+    <!-- Tipografía desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <a class="navbar-brand" href="#">COLLECLUB</a>
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Suscripciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">GeekSwap</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+<section class="py-5 text-white" style="background-color: #0b0520;">
+  <div class="container">
+    <div class="row">
+      <!-- Columna Izquierda: Información de contacto -->
+      <div class="col-md-6 mb-4">
+        <h2 class="fw-bold">¿Te quedó alguna duda?</h2>
+        <h4 class="text-warning mb-4">Contactanos</h4>
+
+        <div class="d-flex align-items-start mb-3">
+          <img src="imagenes/ubicacion.svg" alt="Ubicación" class="me-3" width="40">
+          <p class="mb-0">Calle Fandom 1983, Piso 3<br>Barrio Geek, CABA, Argentina</p>
+        </div>
+
+        <div class="d-flex align-items-start mb-3">
+          <img src="imagenes/reloj.svg" alt="Horario" class="me-3" width="40">
+          <p class="mb-0">Lunes a viernes de 10 a 18 h</p>
+        </div>
+
+        <div class="d-flex align-items-start mb-3">
+          <img src="imagenes/telefono.svg" alt="Teléfono" class="me-3" width="40">
+          <p class="mb-0">+54 11 5555-1984</p>
+        </div>
+
+        <div class="d-flex align-items-start">
+          <img src="imagenes/mail.svg" alt="Email" class="me-3" width="40">
+          <p class="mb-0">hola@cajascolecclub.com</p>
+        </div>
+      </div>
+
+      <!-- Columna Derecha: Formulario -->
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control rounded-pill" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control rounded-pill" placeholder="Tu email">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control rounded-4" rows="5" placeholder="Tu mensaje"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger w-100 rounded-pill fw-semibold">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

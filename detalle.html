@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collecclub</title>
+
+    <!-- Tipografía desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <a class="navbar-brand" href="#">COLLECLUB</a>
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Suscripciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">GeekSwap</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+<!-- HERO: Sección de portada con llamado a la acción -->
+<section class="hero-sectiondetalle section-spacing container-fluid px-lg-5 d-flex align-items-center justify-content-between">
+  <div class="row align-items-center">
+    <!-- Texto principal -->
+    <div class="col-lg-6">
+      <h1 class="h1-custom">Legendary Loot </h1>
+      <p class="p-custom">Accedé a la box más épica de todas:  figuras premium, ropa exclusiva, arte 
+numerado y objetos de culto que no vas a encontrar en ningún otro lado.</p>
+      <div class="d-flex gap-3 mt-4">
+        <a href="#" class="btn btn-light text-white">Suscribirse</a>
+       <!-- <a href="#" class="btn btn-outline-dark">Acción Secundaria</a>-->
+      </div>
+    </div>
+    <!-- Imagen destacada -->
+    <div class="col-lg-6 text-center">
+      <img src="imagenes/hero detalle.png" class="img-fluid img-rounded" alt="Imagen Hero">
+    </div>
+  </div>
+</section>
+<!-- /HERO -->
+
+
+
+<!--QUE INCLUYE 2-->
+<section class="box-section">
+  <div class="container">
+    <h2 class="text-center mb-5">¿Qué incluye la caja?</h2>
+    <div class="row justify-content-center">
+      
+      <!-- ITEM 1 -->
+      <div class="col-6 col-md-3 text-center">
+        <div class="item-box">
+          <img src="imagenes/Incluye 1.png" alt="Remera y gorra">
+        </div>
+        <p class="item-label">Merch Wearable</p>
+      </div>
+
+      <!-- ITEM 2 -->
+      <div class="col-6 col-md-3 text-center">
+        <div class="item-box">
+          <img src="imagenes/Incluye 2.png" alt="Promos">
+        </div>
+        <p class="item-label">Promociones Exclusivas</p>
+      </div>
+
+      <!-- ITEM 3 -->
+      <div class="col-6 col-md-3 text-center">
+        <div class="item-box">
+          <img src="imagenes/Incluye 3.png" alt="Póster exclusivo">
+        </div>
+        <p class="item-label">Posters Exclusivos</p>
+      </div>
+
+      <!-- ITEM 4 -->
+      <div class="col-6 col-md-3 text-center">
+        <div class="item-box">
+          <img src="imagenes/Incluye 4.png" alt="Funko Pop">
+        </div>
+        <p class="item-label">Set de Pines o Figuras</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--QUE INCLUYE 2-->
+
+
+
+<!-- NUMEROS-->
+<!-- Comunidad creciendo: sección con estadísticas -->
+<section class="section-spacing text-center bg-numeros" style="padding: 40px 0;">
+  <div class="container">
+    <h3 class="h3-custom" style="color:#EC135D;">
+      Nuestra comunidad sigue <br> en crecimiento
+    </h3>
+    <p class="text-dark mb-5">Datos que hablan por sí solos</p>
+
+    <div class="row justify-content-center">
+      <!-- Caja 1 -->
+      <div class="col-md-3 col-6 mb-4">
+        <h1 class="fw-bold contador" data-target="1200">0</h1>
+        <p class="fw-semibold text-dark">cajas enviadas</p>
+      </div>
+
+      <!-- Caja 2 -->
+      <div class="col-md-3 col-6 mb-4">
+        <h1 class="fw-bold contador" data-target="4500">0</h1>
+        <p class="fw-semibold text-dark">suscriptores activos</p>
+      </div>
+
+      <!-- Caja 3 -->
+      <div class="col-md-3 col-6 mb-4">
+        <h1 class="fw-bold contador" data-target="1800">0</h1>
+        <p class="fw-semibold text-dark">intercambios en GeekSwap</p>
+      </div>
+
+      <!-- Caja 4 -->
+      <div class="col-md-3 col-6 mb-4">
+        <h1 class="fw-bold contador porcentaje" data-target="98">0</h1>
+</h1>
+        <p class="fw-semibold text-dark">de satisfacción</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NUMEROS-->
+
+
+<!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
+<section class="section-spacing container-fluid bg-suscripciones2 px-5 text-center">  
+  <h3 class="h3-custom">Explorá nuestras cajas</h3>
+  <p class="p-custom2">¡Hay una caja para cada fan!</p>
+  
+  <div class="row justify-content-center gx-4">
+    
+     <!-- Card: Plan Básico -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100">
+
+        <h2 class="text-uppercase">FAN BASE</h2>
+         <h5 >Plan Básico</h5>
+
+         <!-- Imagen ilustrativa -->
+        <img src="imagenes/caja fb1.png" class="img-fluid img-rounded my-3" alt="Plan Básico">
+    
+        <!-- Descripción -->
+        <p class="p-custom">Perfecto para empezar.<br><strong>Incluye:</strong></p>
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
+          <li><i class="bi bi-check-circle-fill"></i> Cómic del mes</li>
+          <li><i class="bi bi-check-circle-fill"></i> Mini póster exclusivo</li>
+          <li><i class="bi bi-check-circle-fill"></i> Sticker pack</li>
+          <li><i class="bi bi-check-circle-fill"></i> Acceso a GeekSwap básico para intercambiar y conectar</li>
+        </ul>
+
+         <!-- Título y precio -->
+           <h2 class="card-text2">$49.000 <small>/ mes</small></h2>
+
+        <!-- Botón CTA -->
+        <a href="#" class="btn btn-dark">¡La quiero! </a>
+      </div>
+    </div>
+
+   
+    <!-- Card: Plan Full -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100">
+        <!-- Título y precio -->
+        <h2 class="text-uppercase">true collector</h2>
+         <h5 >Plan Pro</h5>
+
+        
+        <!-- Imagen ilustrativa -->
+        <img src="imagenes/caja tc.png" class="img-fluid img-rounded my-3" alt="Plan Full">
+
+        <!-- Descripción -->
+        <p class="p-custom"><strong></strong>Ideal para quienes buscan más<br><strong>Incluye:</strong></p>
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
+          <li> <i class="bi bi-check-circle-fill"> </i> Todo lo del plan Fan Base</li>
+          <li> <i class="bi bi-check-circle-fill"></i> Sticker pack x2</li>
+          <li> <i class="bi bi-check-circle-fill"> </i>Figura exclusiva del mes</li>
+          <li> <i class="bi bi-check-circle-fill"></i> 10% de descuento en tiendas afiliadas</li>
+        </ul>
+
+        <!-- Título y precio -->
+           <h2 class="card-text2">$59.000 <small>/ mes</small></h2>
+
+        <!-- Botón CTA -->
+        <a href="#" class="btn btn-dark">¡La quiero! </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- /PLANES DE SUSCRIPCIÓN -->
+
+<!-- GALERÍA A: Grid clásico de 3 columnas -->
+  <section class="py-5 text-center text-white">
+  <div class="container">
+    <h2 class="fw-bold mb-2">Galería de imágenes</h2>
+    <div class="row g-3 justify-content-center">
+      <div class="col-6 col-md-4">
+        <img src="imagenes/Mask group.png" class="img-fluid rounded" alt="Imagen 1">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="imagenes/Mask group-1.png" class="img-fluid rounded" alt="Imagen 2">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="imagenes/Mask group-5.png" class="img-fluid rounded" alt="Imagen 3">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="imagenes/Mask group-3.png" class="img-fluid rounded" alt="Imagen 4">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="imagenes/Mask group-4.png" class="img-fluid rounded" alt="Imagen 5">
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="imagenes/Mask group-2.png" class="img-fluid rounded" alt="Imagen 6">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACTO -->
+ <div class="container py-5 text-white">
+  <!-- Título y subtítulo centrados -->
+  <div class="text-center mb-5">
+    <h2 class="h3-custom">¿Te quedó alguna duda?</h2>
+    <p class="p-custom2">Contactanos</p>
+  </div>
+
+  <!-- Sección con dos columnas alineadas -->
+  <div class="row gx-0">
+    
+    <!-- Columna Izquierda: Información de contacto -->
+    <div class="col-md-6">
+      <div class="d-flex align-items-center mb-4">
+        <img src="imagenes/ubicacion.png" alt="Ubicación" class="me-3" width="40">
+        <p class="mb-0">Calle Fandom 1983, Piso 3<br>Barrio Geek, CABA, Argentina</p>
+      </div>
+
+      <div class="d-flex align-items-center mb-4">
+        <img src="imagenes/horario.png" alt="Horario" class="me-3" width="40">
+        <p class="mb-0">Lunes a viernes de 10 a 18 h</p>
+      </div>
+
+      <div class="d-flex align-items-center mb-4">
+        <img src="imagenes/telefono.png" alt="Teléfono" class="me-3" width="40">
+        <p class="mb-0">+54 11 5555-1984</p>
+      </div>
+
+      <div class="d-flex align-items-center">
+        <img src="imagenes/Mail.png" alt="Email" class="me-3" width="40">
+        <p class="mb-0">hola@cajascolecclub.com</p>
+      </div>
+    </div>
+
+    <!-- Columna Derecha: Formulario -->
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Tu email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- CONTACTO -->
+
+
+<!-- FOOTER -->
+<footer class="text-white py-5">
+  <div class="container">
+    <div class="row justify-content-between">
+      
+      <!-- Logo + Lema -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h3 class="fw-bold">COLLECLUB</h3>
+        <p class="fst-italic">Un club para los que<br>coleccionan en serio</p>
+      </div>
+      
+      <!-- Navegación -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h6 class="fw-bold">Navegación</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Nosotros</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Suscripciones</a></li>
+          <li><a href="#" class="text-white text-decoration-none">GeekSwap</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Preguntas Frecuentes</a></li>
+        </ul>
+      </div>
+
+      <!-- Oficinas -->
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h6 class="fw-bold">Oficinas</h6>
+        <ul class="list-unstyled">
+          <li>Buenos Aires</li>
+          <li>Santiago de Chile</li>
+          <li>Montevideo</li>
+          <li>Asunción</li>
+        </ul>
+      </div>
+
+      <!-- Redes sociales -->
+<div class="col-md-3">
+  <h6 class="fw-bold">Seguinos en redes</h6>
+  <div class="d-flex gap-3 mt-2 social-icons">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="text-white fs-4">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="text-white fs-4">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="text-white fs-4">
+      <i class="fab fa-tiktok"></i>
+    </a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+<!-- FOOTER -->
+
+
+<!-- Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<!-- Script personalizado para cambiar el navbar al hacer scroll -->
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+<!-- Scripts adicionales -->
+<script src="scripts.js"></script>
+</body>
+</html>
